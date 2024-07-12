@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scroll-container {
+    display: flex;
+    scroll-snap-type: x mandatory;
+  }
+  .scroll-item {
+    scroll-snap-align: center;
+    flex: none;
+  }
+  .scroll-item img {
+    object-fit: cover;
+  }
+
+  .gradient-text {
+    background: linear-gradient(93.14deg, #AA1A12 34.27%, #440A07 167.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
